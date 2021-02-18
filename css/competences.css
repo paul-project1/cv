@@ -16,7 +16,8 @@
 
 .competence
 {
-    background-image:url(../images/languages1.jpg);
+    background-color: #fff;
+    border: 2px solid #ff6624;
     background-size: cover;
     background-position: top center;
     position: relative;
