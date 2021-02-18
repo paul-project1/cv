@@ -16,7 +16,9 @@
 
 .competence
 {
-    background-image:url(../images/languages1.jpg);
+    /*background-image:url(../images/languages1.jpg);*/
+    background-color: #ffffff;
+    border: 2px solid #5A4859;
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -36,3 +38,8 @@
     border-radius: 20px;
     z-index: -1;
 }
+
+.competences .icons-size
+{
+    height: 100px;
+} 
