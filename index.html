@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
 
@@ -16,6 +18,15 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+      <!-- MDB icon -->
+      <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+      <!-- Google Fonts Roboto -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+      <!-- MDB -->
+      <link rel="stylesheet" href="css/mdb.min.css" />
 
     <link rel="stylesheet" href="css/helloSection.css">
     <link rel="stylesheet" href="css/style.css"/>
@@ -109,7 +120,7 @@
     <!-- Fin formation -->
 
     <!-- Competences -->
-    <div class="container-fluid">
+    <div class="container">
         <br><hr class="md-4"><br>
         <div class="row">
             <div class="col-12 text-center title" id="competences">
@@ -181,6 +192,7 @@
         <!-- Fin competences -->
 
         <!------------------------------------------------------------------------------------------------------------------ test competences -->
+        <!--
         <div class="container competences text-center">
             <div class="row" style="border: 2px solid green;">
                 <div class="col-lg-6 col-md-12">
@@ -209,6 +221,7 @@
                 </div>
             </div>
         </div>
+         -->
         <!------------------------------------------------------------------------------------------------------------------ Fin test competences -->
 
         <!-- Mes Experiences -->
@@ -252,6 +265,17 @@
                         <h3>Stage Developpeur web</h3>
                         <p>Chez leseat.</p>
                         <button id="1" type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="choixTexte(this.id)"> Read More </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="fas fa-place-of-worship"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="fas fa-calendar-day"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -302,17 +326,67 @@
 
         <!-- Me contacter -->
         <br><hr class="md-4"><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center title" id="contact">
-                    <h1 class="display-4"><span class="color-orange">&lt;/</span> Me contacter <span class="color-orange">&gt;</span></h1>
-                </div>
-            </div>
-            <div class="row text-center">
-                <h5>Coming soon...</h5>
+        <div class="row">
+            <div class="col-12 text-center title" id="contact">
+                <h1 class="display-4"><span class="color-orange">&lt;/</span> Me contacter <span class="color-orange">&gt;</span></h1>
             </div>
         </div>
-        <!-- Fin me contacter -->
+        <div class="row text-center grey-text mb-5">
+            <p class="lead grey-text text-center w-responsive mx-auto mb-2 pb-3">Vous avez une question, vous voulez que nous collaborions sur un ou plusieurs projet(s), vous voulez me dire quelque chose ? Il suffit de remplir le formulaire ci-dessous.</p>
+            <div class="col-sm-4 ">
+                <div>
+                    <i class="fas fa-map-marker purple-pastel fa-lg color-orange"> </i>
+                </div>
+                <div>
+                    <span>  87100 Limoges, France</span>
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <i class="fas fa-envelope purple-pastel fa-lg color-orange"> </i>
+                </div>
+                <div>
+                    <span>  mouafopauldenilson@gmail.com</span>
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <i class="fas fa-phone-alt purple-pastel fa-lg color-orange"> </i>
+                </div>
+                <div>
+                    <span>  +33 7 53 75 69 79</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="row text-center">
+            <form action="https://airform.io/mouafopauldenilson@gmail.com" method="post">
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="form4Example1" name="name" class="form-control" />
+                    <label class="form-label" for="form4Example1">Name</label>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form4Example2" name="email" class="form-control" />
+                    <label class="form-label" for="form4Example2">Email address</label>
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" name="message" id="form4Example3" rows="4"></textarea>
+                    <label class="form-label" for="form4Example3">Message</label>
+                </div>
+
+                <!-- Submit button -->
+                <button class="btn btn-primary btn-block mb-4">Send</button>
+            </form>
+        </div>
+    <!-- Fin me contacter -->
+    <br>
 
     </div><br>
 
@@ -416,6 +490,11 @@
             }
         }
     </script>
+
+     <!-- MDB -->
+     <script type="text/javascript" src="js/mdb.min.js"></script>
+     <!-- Custom scripts -->
+     <script type="text/javascript"></script>
 
 </body>
 </html>
