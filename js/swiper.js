@@ -1,6 +1,6 @@
 // Initialize Swiper 
 
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.swiper1', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
